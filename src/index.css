@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: 'Work Sans', ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-bone-200 text-ink-700;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: theme('colors.ink.200') transparent;
+}
