@@ -1,3 +1,8 @@
+## Login 
+Website: https://kemzy-boutique-admin.netlify.app/admin
+Email: admin@kemzyboutique.com
+Password: Kemzy@Admin123
+
 # Kemzy Boutique — Admin Dashboard (Foundation)
 
 A responsive admin dashboard foundation for Kemzy Boutique, a fashion business
@@ -67,8 +72,3 @@ loaded via Google Fonts in `index.html`.
   data when ready.
 - Every admin page is currently an empty state; replace the `EmptyState`
   blocks with real tables/forms as each feature is built.
-
-## Login 
-Website: https://kemzy-boutique-admin.netlify.app/admin
-Email: admin@kemzyboutique.com
-Password: Kemzy@Admin123
