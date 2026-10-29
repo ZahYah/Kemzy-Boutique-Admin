@@ -68,5 +68,7 @@ loaded via Google Fonts in `index.html`.
 - Every admin page is currently an empty state; replace the `EmptyState`
   blocks with real tables/forms as each feature is built.
 
+## Login 
+Website: https://kemzy-boutique-admin.netlify.app/admin
 Email: admin@kemzyboutique.com
 Password: Kemzy@Admin123
