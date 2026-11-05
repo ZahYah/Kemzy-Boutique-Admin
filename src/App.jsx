@@ -2,7 +2,6 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
 import AdminLayout from './layouts/AdminLayout';
-import Login from './pages/Login';
 import Dashboard from './admin/Dashboard';
 import Products from './admin/Products';
 import ProductNew from './admin/ProductNew';
@@ -23,7 +22,6 @@ export default function App() {
     <AuthProvider>
       <Routes>
         <Route path="/" element={<Navigate to="/admin" replace />} />
-        <Route path="/admin/login" element={<Login />} />
 
         <Route element={<ProtectedRoute />}>
           <Route path="/admin" element={<AdminLayout />}>

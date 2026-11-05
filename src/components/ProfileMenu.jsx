@@ -56,7 +56,7 @@ export default function ProfileMenu() {
             onClick={async () => {
               setOpen(false);
               await logout();
-              navigate('/admin/login', { replace: true });
+              navigate('/admin', { replace: true });
             }}
             className="flex w-full items-center gap-2.5 border-t border-ink-100 px-4 py-2.5 text-sm text-wine-500 hover:bg-bone-200"
           >
